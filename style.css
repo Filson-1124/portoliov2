@@ -606,6 +606,7 @@ button:hover{
     }
  }
 
+
  @media all and (max-width: 1440px){
     .aboutme-contents{
         gap:50px;
@@ -690,6 +691,10 @@ button:hover{
  }
 
  @media all and (max-width:425px){
+.subtitle p{
+    font-size: 20px;
+}
+
     .pic-container{
         height: 350px;
     }
@@ -746,6 +751,39 @@ button:hover{
     .icontainer{
         display: none;
     }
+    .about-me{
+        height: 300vh;
+    }
+
+    .aboutme-contents{
+        display: flex;
+        flex-direction: column;
+        min-height: 200vh;
+        align-items: center;
+        gap: 40px;
+        justify-content: start;
+    }
+
+    .timeline{
+        align-items: center;
+        min-height: 200px;
+        width: 100%;
+        padding-bottom: 0px;
+        
+
+    }
+
+    .skil{
+        width: 300px;
+    }
+
+    .textbox{
+        width:300px;
+    }
+
+    .techsbox{
+        width: 300px;
+    }
  }
 
 
@@ -770,5 +808,28 @@ button:hover{
     }
     .miniabout p{
         font-size: 14px;
+    }
+ }
+
+ @media all and (max-width:320px){
+    .miniabout{
+        padding-left: 0px;
+        width: 90%;
+    }
+
+
+    .title{
+        min-height: 20px;
+    }
+
+    .textbox{
+        width: 250px;
+    }
+
+    .techsbox{
+        width: 250px;
+    }
+    .skil{
+        width: 250px;
     }
  }
